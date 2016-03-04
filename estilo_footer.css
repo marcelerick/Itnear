@@ -1,0 +1,16 @@
+@charset "UTF-8";*{margin:0px;padding:0px;}
+@font-face{font-family:'Trebuchet MS';src:url('../font/TrebuchetMS.eot') format('eot');src:url('../font/TrebuchetMS.otf') format('otf');src:url('../font/TrebuchetMS.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Trebuchet MS';src:url('../font/TrebuchetMS-Bold.eot') format('eot');src:url('../font/TrebuchetMS-Bold.otf') format('otf');src:url('../font/TrebuchetMS-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
+ul{list-style-type:none;margin:10px 0 0 20px;}
+ul.item a{background-image:url(../images/rodape_bullet.jpg);background-repeat:no-repeat;background-position:1px 3px;font-family:"Trebuchet MS";color:#656565;font-size:12px;font-weight:Bold;text-decoration:none;line-height:15px;margin-left:-15px;*margin-left:-10px;padding-left:15px;}
+ul.item a:hover{background-image:url(../images/rodape_bullet_blue.jpg);background-repeat:no-repeat;background-position:1px 3px;text-decoration:none;color:#538bc8;}
+ul.item #ativo{background-image:url(../images/rodape_bullet_blue.jpg);background-repeat:no-repeat;background-position:1px 3px;text-decoration:none;color:#538bc8;}
+ul.sub a{font-family:"Trebuchet MS";text-decoration:none;font-size:10px;line-height:15px;color:#8b8a8a;font-weight:Bold;*margin-left:5px;}
+ul.sub a:hover{text-decoration:underline;color:#538bc8;}
+ul.contato_tit, ul.contato_tit a, ul.contato_tit a:hover{font-family:"Trebuchet MS";color:#659cd4;font-size:12px;font-weight:Bold;text-decoration:none;line-height:15px;}
+ul.contato, ul.contato a{font-family:"Trebuchet MS";color:#656565;font-size:12px;font-weight:Normal;text-decoration:none;line-height:15px;}
+ul.contato a:hover{text-decoration:underline;color:#538bc8;}
+.bg_rodape{background-image:url(../images/rodape_bg.jpg);width:100%;height:203px;margin:0 auto;float:left;clear:both;}
+.rodape{width:1024px;margin:20px auto;}
+.rodape_col{width:211px;background-image:url(../images/rodape_divisor.png);background-position:right;background-repeat:no-repeat;height:137px;margin:0 auto;float:left;}
+.rodape_col_last{width:170px;height:137px;margin:0 auto;float:left;}

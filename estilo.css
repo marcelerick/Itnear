@@ -1,0 +1,114 @@
+﻿@charset "UTF-8";*{margin:0px;padding:0px;}
+@font-face{font-family:'Trebuchet MS';src:url('../font/TrebuchetMS.eot') format('eot');src:url('../font/TrebuchetMS.otf') format('otf');src:url('../font/TrebuchetMS.ttf') format('truetype');font-weight:normal;font-style:normal;}
+@font-face{font-family:'Trebuchet MS';src:url('../font/TrebuchetMS-Bold.eot') format('eot');src:url('../font/TrebuchetMS-Bold.otf') format('otf');src:url('../font/TrebuchetMS-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;}
+@font-face{font-family:'Trebuchet MS';src:url('../font/TrebuchetMS-BoldItalic.eot') format('eot');src:url('../font/TrebuchetMS-BoldItalic.otf') format('otf');src:url('../font/TrebuchetMS-BoldItalic.ttf') format('truetype');font-weight:bold;font-style:italic;}
+@font-face{font-family:'Trebuchet MS';src:url('../font/TrebuchetMS-Italic.eot') format('eot');src:url('../font/TrebuchetMS-Italic.otf') format('otf');src:url('../font/TrebuchetMS-Italic.ttf') format('truetype');font-weight:normal;font-style:italic;}
+body{color:#000;background:#fff;font-weight:normal;margin:0 auto;}
+h1{font-family:"Trebuchet MS";font-weight:normal;font-size:33px;text-transform:uppercase;margin:0 0 10px 0;color:#707071;}
+h2{font-family:"Trebuchet MS";font-weight:normal;text-transform:uppercase;font-size:18px;color:#538bc8;margin:0 auto;}
+.conteudo #box1 h2,
+.conteudo #box2 h2,
+.conteudo #box3 h2,
+.conteudo #box4 h2{padding-top:183px;}
+.conteudo .topicos_right h2{padding:45px 0 0 0;}
+.conteudo .topicos_left h2{padding-top:45px;}
+p{font-family:"Trebuchet MS";font-size:15px;color:#979797;text-align:justify;margin:10px 0 10px 0;}
+.form p{margin:0;}
+.form .campo_obrigatorio{font-family:"Trebuchet MS";font-size:10px;color:#979797;text-align:justify;margin:0 0 0 0;}
+.link_sublinhado{font-family:"Trebuchet MS";font-weight:bold;font-size:14px;color:#538bc8;font-style:italic;}
+.link_sublinhado:hover{text-decoration:none;}
+.banner_home{background-image:url(../images/home_banner.jpg);width:1024px;height:374px;margin:0 auto;clear:left;}
+.texto_banner{width:415px;height:auto;max-height:230px;position:relative;margin:105px 0 0 0;}
+#home_banner_logos{background-image:url(../images/home_banner_logos.jpg);width:409px;height:39px;position:relative;}
+.divisor_home{width:100%;height:3px;background:#b5d7e8 url(../images/home_bg_line_blue.jpg) no-repeat center center;}
+.divisor_conteudo{width:100%;height:13px;clear:both;background:url(../images/home_divisor.png);background-repeat:repeat-x;margin-top:30px;}
+.bg_gradiente{background:#ffffff;background:-moz-linear-gradient(left, #f6f5f5 0%, #ffffff 7%, #ffffff 92%, #f6f5f5 100%);background:-webkit-gradient(linear, left top, right top, color-stop(0%,#f6f5f5), color-stop(7%,#ffffff), color-stop(92%,#ffffff), color-stop(100%,#f6f5f5));background:-webkit-linear-gradient(left, #f6f5f5 0%,#ffffff 7%,#ffffff 92%,#f6f5f5 100%);background:-o-linear-gradient(left, #f6f5f5 0%,#ffffff 7%,#ffffff 92%,#f6f5f5 100%);background:-ms-linear-gradient(left, #f6f5f5 0%,#ffffff 7%,#ffffff 92%,#f6f5f5 100%);background:linear-gradient(to right, #f6f5f5 0%,#ffffff 7%,#ffffff 92%,#f6f5f5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1);width:100%;float:left;}
+.home_conteudo2{width:1024px;height:413px;margin:35px auto;clear:both;background-image:url(../images/home_nossos_servicos.jpg);background-repeat:no-repeat;background-position:bottom;}
+.conteudo{width:1024px;height:auto;max-height:541px;position:relative;margin:0 auto;}
+#box1{width:210px;height:auto;position:relative;min-height:425px;max-height:500px;float:left;margin:68px 0 50px 0;background-image:url(../images/home_icon_modelos_flexiveis.png);background-repeat:no-repeat;background-position:center top;}
+#box2{width:210px;height:auto;position:relative;min-height:425px;max-height:500px;float:left;margin:68px 0 50px 54px;background-image:url(../images/home_icon_oferta_nuvem.png);background-repeat:no-repeat;background-position:center top;}
+#box3{width:228px;height:auto;position:relative;min-height:425px;max-height:500px;float:left;margin:68px 0 50px 54px;background-image:url(../images/home_icon_suporte_confiabilidade.png);background-repeat:no-repeat;background-position:center top;}
+#box4{width:210px;height:auto;position:relative;min-height:425px;max-height:500px;float:left;margin:68px 0 50px 54px;background-image:url(../images/home_icon_solucoes_peso.png);background-repeat:no-repeat;background-position:center top;}
+.divisor{background-image:url(../images/divisor.jpg);width:1021px;height:61px;background-repeat:no-repeat;margin:auto;clear:both;}
+.divisor_down{background-image:url(../images/divisor_down.jpg);width:1021px;height:61px;background-repeat:no-repeat;margin:auto;}
+.chamada{width:700px;height:110px;float:left;margin-top:45px;}
+.chamada #ico_seguranca{background-image:url(../images/beneficios_icon_seguranca.png);background-repeat:no-repeat;background-position:left;width:80px;height:110px;float:left;}
+.chamada #ico_disponibilidade{background-image:url(../images/beneficios_icon_disponibilidade.png);background-repeat:no-repeat;background-position:left;width:80px;height:110px;float:left;}
+.topicos_right{width:450px;height:auto;max-height:380px;position:relative;float:right;}
+.topicos_left{width:530px;padding-left:80px;float:left;height:auto;max-height:380px;position:relative;}
+#seguranca{background-image:url(../images/beneficios_seguranca.png);background-repeat:no-repeat;background-position:65px 15px;height:380px;width:560px;float:left;margin:auto;}
+.conteudo #disponibilidade{background-image:url(../images/beneficios_disponibilidade.png);background-repeat:no-repeat;background-position:640px 20px;height:541px;}
+.pg_contato{width:1024px;height:420px;margin:0 auto;}
+.pg_contato #contato_icone{background-image:url(../images/contato_icone.png);background-repeat:no-repeat;background-position:70px center;height:360px;width:385px;float:left;}
+.pg_contato #formulario{float:right;width:546px;height:315px;padding:45px 40px 0 44px;}
+.solicite_contato{width:1024px;height:420px;float:left;margin:0 auto;}
+.solicite_contato #beneficios{background-image:url(../images/beneficios_contato.jpg);background-repeat:no-repeat;background-position:70px center;height:360px;width:385px;float:left;}
+.solicite_contato #formulario{float:right;width:546px;height:310px;padding:45px 40px 0 44px;}
+.form{width:546px;}
+.no_border{border:medium none;}
+form input[type="text"]{background-color:#e0e0e0;border:0;padding:5px;width:230px;font-family:"Trebuchet MS";font-size:15px;color:#979797;}
+textarea{background-color:#e0e0e0;border:0;padding:5px;width:260px;height:128px;font-family:"Trebuchet MS";font-size:15px;color:#979797;}
+.botao_envia{background-image:url(../images/bot_enviar.png);width:104px;height:31px;border:0;font-family:"Trebuchet MS";font-size:17px;color:#FFF;}
+.botao_envia:hover{background-image:url(../images/bot_enviar_hover.png);}
+#quemsomos{width:1024px;height:350px;margin:0 auto;position:relative;}
+#quemsomos #ilustracao{background-image:url(../images/quem_somos_ilustracao.png);width:391px;height:256px;background-repeat:no-repeat;float:left;margin:41px 0 0 36px;position:absolute;}
+.texto_quemsomos{width:550px;height:auto;position:relative;max-height:350px;float:right;margin:65px 0 0 0;}
+#equipe{width:1024px;height:430px;margin:0 auto;position:relative;}
+.diretores{width:227px;height:auto;max-height:430px;position:relative;float:left;margin:0 14px 0 14px;}
+.diretores #wilson{background-image:url(../images/quem_somos_wilson.png);background-repeat:no-repeat;background-position:center top;height:180px;}
+.diretores #rodrigo{background-image:url(../images/quem_somos_rodrigo.png);background-repeat:no-repeat;background-position:center top;height:180px;}
+.diretores #francisco{background-image:url(../images/quem_somos_francisco.png);background-repeat:no-repeat;background-position:center top;height:180px;}
+.diretores #luiz{background-image:url(../images/quem_somos_luiz.png);background-repeat:no-repeat;background-position:center top;height:180px;}
+.diretores h3{font-family:"Trebuchet MS";font-size:15px;color:#fff;text-transform:uppercase;font-weight:bold;text-align:right;padding:10px 10px 0 0;}
+.diretores h4{font-family:"Trebuchet MS";text-decoration:none;font-size:12px;color:#4781be;font-weight:normal;text-align:right;margin:6px 5px 0 0;}
+.contato_diretor, contato_diretor a{margin:10px 0 0 143px;border:0;background-image:url(../images/quem_somos_email.png);background-repeat:no-repeat;width:48px;height:47px;}
+.contato_diretor:hover{background-image:url(../images/quem_somos_email_hover.png);}
+.contato_linkedin, contato_linkedin a{margin:5px 0 0 125px;border:0;background-image:url(../images/quem_somos_linkedin.png);background-repeat:no-repeat;width:48px;height:47px;}
+.contato_linkedin:hover{background-image:url(../images/quem_somos_linkedin_hover.png);}
+#equipe .diretores p{margin-right:10px;margin-left:10px;}
+#aempresa{width:1024px;height:320px;margin:0 auto;position:relative;}
+#comosurgiu{width:458px;height:auto;position:relative;max-height:208px;margin:42px 24px 70px 24px;float:left;}
+#oquefazemos{width:458px;margin:42px 24px 70px 24px;float:left;height:auto;position:relative;max-height:208px;}
+.mapa{background-image:url(../images/contato_mapa.jpg);background-position:center;background-repeat:no-repeat;width:1023px;height:499px;margin:0 auto;}
+.mapa a{font-family:"Trebuchet MS";font-size:13px;font-weight:normal;line-height:13px;text-decoration:none;color:#FFF;font-size:inherit;text-align:left;}
+.pg_contato_e-mail{width:200px;height:40px;float:left;margin-top:135px;margin-left:445px;}
+a.email{font-size:18px;font-weight:bold;margin:0 auto;}
+a.email:hover{text-decoration:underline;}
+.pg_contato_adress{width:130px;height:104px;float:left;margin:155px 0 0 100px;}
+.tecnologia{width:1024px;height:280px;margin:0 auto;clear:left;}
+.tecnologia #ilustracao{background-image:url(../images/tecnologia_icone.jpg);width:361px;height:151px;background-repeat:no-repeat;float:left;margin:65px 0 0 28px;position:absolute;}
+.texto_tecnologia{width:550px;height:auto;max-height:200px;position:relative;float:right;margin:65px 40px 0 0;}
+#produto{width:1024px;height:760px;margin:0 auto;margin-top:100px;clear:left;}
+.logo_produto{width:344px;height:100px;margin:95px 0 0 36px;float:left;}
+.galeria1{width:561px;height:362px;margin-top:47px;margin-left:50px;float:left;background-image:url(../images/tecnologia-1.jpg);background-repeat:no-repeat;background-position:center center;}
+.galeria2{width:561px;height:362px;margin-top:47px;margin-left:50px;float:left;background-image:url(../images/tecnologia-2.jpg);background-repeat:no-repeat;background-position:center center;}
+.galeria3{width:562px;height:362px;margin-top:47px;margin-left:50px;float:left;background-image:url(../images/tecnologia-3.jpg);background-repeat:no-repeat;background-position:center center;}
+.galeria4{width:562px;height:362px;margin-top:47px;margin-left:50px;float:left;background-image:url(../images/tecnologia-4.jpg);background-repeat:no-repeat;background-position:center center;}
+
+.caracteristicas_produto{width:285px;height:auto;max-height:220px;position:relative;float:left;margin:45px 25px 0 30px;}
+.submenu{height:34px;width:980px;margin:0 auto;}
+.linha{border-bottom:2px dotted #d7d7d7;padding:7px 2px 7px 0px;width:804px;float:left;}
+.linha2{border-bottom:2px dotted #d7d7d7;padding:7px 2px 7px 0px;width:780px;float:left;}
+.linha3{border-bottom:2px dotted #d7d7d7;padding:7px 2px 7px 0px;width:812px;float:left;}
+.linha4{border-bottom:2px dotted #d7d7d7;padding:7px 2px 7px 0px;width:781px;float:left;}
+.itens_submenu{font-family:"Trebuchet MS";font-weight:normal;font-size:11px;color:#afafaf;float:left;width:125px;margin:7px 0 0 7px;}
+.itens_submenu a{font-family:"Trebuchet MS";font-weight:normal;font-size:11px;color:#afafaf;margin:0 10px 0 10px;}
+.itens_submenu a:hover{text-decoration:none;}
+.tecnologia #ilustracao2{background-image:url(../images/tecnologia_icone2.jpg);width:286px;height:193px;background-repeat:no-repeat;float:left;margin:35px 0 0 83px;position:absolute;}
+#wrap_tecnologia{clear:both;}
+.menu_tecnologia{position:absolute;display:block;height:140px;overflow:hidden;width:100%;z-index:9999;}
+.menu_tecnologia .background{background-color:white;position:relative;top:-140px;height:80px;background-color:#fff;z-index:999;width:1020px;margin:0 auto;}
+.menu_flutuante a{z-index:9999;position:relative;}
+.menu_flutuante{background-image:url(../images/divisor_down.jpg);width:1021px;height:140px;background-repeat:no-repeat;background-position:center bottom;margin:0 auto;z-index:9999;position:relative;}
+.menu_flutuante #bt_exchange{background-image:url(../images/tecnologia-menu_exchange.png);background-repeat:no-repeat;background-position:center top;width:207px;height:110px;float:left;margin-left:55px;}
+.menu_flutuante #bt_exchange:hover,
+.menu_flutuante a.selecionado #bt_exchange{background-image:url(../images/tecnologia-menu_exchange_hover.png);}
+.menu_flutuante #bt_lync{background-image:url(../images/tecnologia-menu_lync.png);background-repeat:no-repeat;background-position:center top;width:96px;height:110px;float:left;margin-left:120px;}
+.menu_flutuante #bt_lync:hover,
+.menu_flutuante a.selecionado #bt_lync{background-image:url(../images/tecnologia-menu_lync_hover.png);}
+.menu_flutuante #bt_sharepoint{background-image:url(../images/tecnologia-menu_sharepoint.png);background-repeat:no-repeat;background-position:center top;width:155px;height:110px;float:left;margin-left:120px;}
+.menu_flutuante #bt_sharepoint:hover,
+.menu_flutuante a.selecionado #bt_sharepoint{background-image:url(../images/tecnologia-menu_sharepoint_hover.png);}
+.menu_flutuante #bt_voip{background-image:url(../images/tecnologia-menu_voip.png);background-repeat:no-repeat;background-position:center top;width:91px;height:110px;float:left;margin-left:110px;}
+.menu_flutuante #bt_voip:hover,
+.menu_flutuante a.selecionado #bt_voip{background-image:url(../images/tecnologia-menu_voip_hover.png);}

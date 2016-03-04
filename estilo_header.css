@@ -1,0 +1,11 @@
+﻿@charset "UTF-8";*{margin:0px;padding:0px;}
+@font-face{font-family:'Orator Std';src:url('../font/OratorStd.eot') format('eot');src:url('../font/OratorStd.otf') format('otf');src:url('../font/OratorStd.ttf') format('truetype');font-weight:normal;font-style:normal;}
+#cabecalho{width:1024px;height:139px;background:#fefefe url(../images/header_line_top.jpg) no-repeat center top;margin:0 auto;clear:both;}
+#logo{float:left;width:146px;height:125px;margin:9px 0 0 5px;border:0;}
+.botao1{position:relative;float:left;margin:79px 0 0 123px;*margin:79px 0 0 154px;padding:0px;border:0 0 0 0;}
+.botao1 a, .botao1 a:visited{font:Normal 16px/42px Orator Std, sans-serif;padding:0px;text-decoration:none;text-align:center;color:#b0b0b0;background:#666 url('../images/header_bg_menu.jpg') center center;height:42px;display:block;border:0;}
+.botao1 a:hover{background:#666 url('../images/header_bg_menu_hover.jpg') center center;color:#779ec6;border:0;}
+.botao{position:relative;float:left;margin:79px 0 0 35px;padding:0px;border:0;}
+.botao a, .botao a:visited{font:Normal 16px/42px Orator Std, sans-serif;padding:0px;text-decoration:none;text-align:center;color:#b0b0b0;background:#666 url('../images/header_bg_menu.jpg') center center;height:42px;display:block;border:0;}
+.botao a:hover{background:#666 url('../images/header_bg_menu_hover.jpg') center center;color:#779ec6;border:0;}
+.botao #ativo, .botao1 #ativo{background:#666 url('../images/header_bg_menu_hover.jpg') center center;color:#779ec6;border:0;}
